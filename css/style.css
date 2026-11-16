@@ -1,0 +1,21 @@
+/* Style général de la page */
+body {
+background-color: #eef2f7;
+}
+
+/* Style du titre principal */
+h1 {
+color: #0d6efd;
+}
+
+/* Personnalisation des Cards */
+.card {
+    border-radius: 15px;
+overflow: hidden;
+}
+
+/* Effet au survol des Cards */
+.card:hover {
+transform: translateY(-5px);
+transition: 0.3s;
+}
